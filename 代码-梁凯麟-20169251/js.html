@@ -1,0 +1,700 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN">
+<head>
+<title>新建网页</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="布尔教育 http://www.itbool.com" />
+<style>
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;}
+
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+body
+{background: #F5F5F5}
+#guanggao
+{width:1200px;   height: 75px;   background-color: yellow;	
+}
+#biaoqianlan{
+width: auto;   height: 65px;   background-color: white;	
+}
+
+#jike {
+    display: block;  width: 109px;  height: 40px;  margin-left: 260px;  padding-top: 12.5px;
+}
+#touxiang{
+    display: block;  width: 57px;   height: 57px;  padding-left: 30px;  padding-top: 30px;
+}
+#hello{
+     float: left; color: #555;     font-size: 12px; line-height: 16px; background-color:white;   margin-top: -120px;  padding-left: 100px;
+}
+#huanyin{
+    display: block; float: left;
+}
+
+
+#gongdongtupian{
+width: 750px;  height: 330px;  background-color: #F5F5F5;  float: left;   margin-top:  20px;    margin-left: 260px;}
+
+
+
+#denglu{
+width: 240px;  height: 330px; /*border: solid gray;*/     float: right;  margin-top: 20px;     margin-right: 258px;}
+#shang{
+width: 240px;  height: 160px; background: white; /*border: solid red;*/ margin-left:-20px; margin-top: -10px;}
+#xia{
+width: 240px;  height: 160px; background-color: green; margin-top:10px; margin-left: -20px;}
+#kechengfenlei{ 
+width: 1000px; height: 130px; background-color: pink;   float: left;   margin-top:20px;  margin-left: 260px; }
+#bufenkecheng{
+width: 1000px; height: 270px; background-color: #F5F5F5; float: left;   margin-top: 20px; margin-left: 260px;	
+}
+    #k1{
+    height:268px;   width:233.4px;  background-color: white; margin-left: 00.00px; float: left;}
+    #k2{
+    height:268px;   width:233.4px;  background-color: white; margin-left: 22.10px; float: left;}
+    #k3{
+    height:268px;   width:233.4px;  background-color: white; margin-left: 22.10px; float: left;}
+    #k4{
+    height:268px;   width:233.4px;  background-color: white; margin-left: 22.10px; float:left;}
+         #l1{display: block; float: left;}
+         #l2{display: block; float: left;}
+         #l3{display: block; float: left;}
+         #l4{display: block; float: left;}
+
+#zhiyexueyuan{
+width: 1000px; height: 310px; background-color: #F5F5F5;  float: left;   margin-top: 40px; margin-left: 260px;	
+}
+#huiyuankecheng{
+width: 1000px; height: 420px; background-color: #F5F5F5;    float: left;  margin-top: 40px; margin-left: 260px;	
+}
+   #hzs{
+    width: 1000px; height: 40px; background: #F5F5F5;
+   }
+   #hsz{
+    width: 1000px; height: 148.4px; background:#F5F5F5;
+   }
+#bzs1
+{width:240px; height:130px; display: block;}
+#bzs2
+{width:240px; height:130px; display: block; margin-top: 10px;}
+#bzs3
+{width:240px; height:130px; display: block;}
+#bzs4
+{width:240px; height:130px; display: block; margin-top: 10px;}
+   #hs1{
+    width: 156.40px; height: 148.40px; background: white; margin-left: 0; float: left;
+   }
+
+   #hs2{
+    width: 156.40px; height: 148.40px; background: white; margin-left: 12.32px; float: left;
+   }
+   #hs3{
+    width: 156.40px; height: 148.40px; background: white; margin-left: 12.32px; float: left;
+   }
+   #hs4{
+    width: 156.40px; height: 148.40px; background: white; margin-left: 12.32px; float: left;
+   }
+   #hs5{
+    width: 156.40px; height: 148.40px; background: white; margin-left: 12.32px; float: left;
+   }
+   #hs6{
+    width: 156.40px; height: 148.40px; background: white; margin-left: 12.32px; float: left;
+   }
+   #hxz{
+    width: 1000px; height: 148.4px; background: orange; margin-top: 13.20px;
+   }
+   #hx1{
+    width: 156.40px; height: 148.40px; background: white; margin-left: 0; float: left;
+   }
+
+   #hx{
+    width: 156.40px; height: 148.40px; background: white; margin-left: 12.32px; float: left;
+   }
+#xueyuangushi{
+width: 1000px; height: 380px; background-color: red;     float: left;  margin-top: 40px; margin-left: 260px;	
+}
+#jikexueyuan{
+width: 1000px; height: 225px; background-color: yellow;  float: left;  margin-left: 260px; 	
+}
+#wei{
+width: 1519.2px; height: 300px;  background-color: white;  margin-left: 260px;	
+}
+
+
+.foreground {color:#555555;  font-size: 12px;  padding-top: 170px;  padding-left: 18px;
+} 
+.zi {        color:#B399B3;  font-size: 12px;  padding-top: 20px;  padding-left: 13px;
+}
+.za{             padding-top: 15px;  padding-left: 3px;  }
+
+
+#jiage{color:#FF5C00;  font-size: 18px;  padding-top: 25px;  padding-left: 13px;  
+}
+#fa{   color:#BFBFBF ;   font-size: 12px; text-decoration-line:line-through ;
+}
+#he{   color:#BFBFBF ;    font-size: 13px;   
+}
+
+
+ 
+.foreground2 {color:#555555;  font-size: 12px;  padding-top: 170px;  padding-left: 18px;
+} 
+.zi2 {        color:#B399B3;  font-size: 12px;  padding-top: 20px;  padding-left: 13px;
+}
+.za2{             padding-top: 15px;  padding-left: 3px;  }
+
+
+#jiage2{color:#FF5C00;  font-size: 18px;  padding-top: 25px;  padding-left: 13px;  
+}
+#fa2{   color:#BFBFBF ;   font-size: 12px; text-decoration-line:line-through ;
+}
+#he2{   color:#BFBFBF ;    font-size: 13px;   
+}
+
+
+.foreground3 {color:#555555;  font-size: 12px;  padding-top: 170px;  padding-left: 18px;
+} 
+.zi3 {        color:#B399B3;  font-size: 12px;  padding-top: 20px;  padding-left: 13px;
+}
+.za3{             padding-top: 15px;  padding-left: 3px;  }
+
+
+#jiage3{color:#FF5C00;  font-size: 18px;  padding-top: 25px;  padding-left: 13px;  
+}
+#fa3{   color:#BFBFBF ;   font-size: 12px; text-decoration-line:line-through ;
+}
+#he3{   color:#BFBFBF ;    font-size: 13px;   
+}
+
+
+#zuishang{
+  width: 1000px; height: 40px; background: #F5F5F5;
+}
+.sz{color:black;  font-size: 18px;  padding-top: 0px;  padding-left: 0px;
+
+}
+#bzuo{
+      width: 500px;   height: 270px;  background:  ;  float:left;  background-image: url(js/xiajpg.jpg);
+}
+                
+                #zuhe2{  display: block;              float: left;   margin-top: -60px;  margin-top: 60px; margin-left: 200px;
+                }
+                .shangzi{color: #FFFFFF;  font-size: 20px; margin-top: 180px; margin-left: 180px;}
+#bzhong{
+      width: 240px;   height:270px;   background: #F5F5F5;   float: left; margin-left: 10px;
+}
+
+#byou{
+      width: 240px;   height:270px;   background: #F5F5F5;   float: left; margin-left: 10px;
+}
+#bbs1{
+      width: 55px;   height: 55px; float: left;  margin-left: 50.7px;  margin-top: 20px;
+}
+#android1{
+  color:555555;  font-size: 12px;  padding-top: 170px;  padding-left: 54px; 
+}
+#kechen901{
+  color:#35B558;  font-size: 14px;  margin-top:-11px;  padding-left:45px; display: block;
+}
+
+#bbs2{
+      width: 55px;   height: 55px; float: left;  margin-left: 50.7px;  margin-top: 20px;
+}
+#android2{
+  color:555555;  font-size: 12px;  padding-top: 170px;  padding-left: 68px; 
+}
+#kechen902{
+  color:#35B558;  font-size: 14px;  margin-top:-11px;  padding-left:45px; display: block;
+}
+
+
+#bbs3{
+      width: 55px;   height: 55px; float: left;  margin-left: 50.7px;  margin-top: 20px;
+}
+#android3{
+  color:555555;  font-size: 12px;  padding-top: 170px;  padding-left: 64px; 
+}
+#kechen903{
+  color:#35B558;  font-size: 14px;  margin-top:-11px;  padding-left:45px; display: block;
+}
+#bbs4{
+      width: 55px;   height: 55px; float: left;  margin-left: 50.7px;  margin-top: 20px;
+}
+#android4{
+  color:555555;  font-size: 12px;  padding-top: 170px;  padding-left: 56px; 
+}
+#kechen904{
+  color:#35B558;  font-size: 14px;  margin-top:-11px;  padding-left:45px; display: block;
+}
+#bbs5{
+      width: 55px;   height: 55px; float: left;  margin-left: 50.7px;  margin-top: 20px;
+}
+#android5{
+  color:555555;  font-size: 12px;  padding-top: 170px;  padding-left: 46px; 
+}
+#kechen905{
+  color:#35B558;  font-size: 14px;  margin-top:-11px;  padding-left:45px; display: block;
+}
+#bbs6{
+      width: 55px;   height: 55px; float: left;  margin-left: 50.7px;  margin-top: 20px;
+}
+#android6{
+  color:555555;  font-size: 12px;  padding-top: 170px;  padding-left: 54px; 
+}
+#kechen906{
+  color:#35B558;  font-size: 14px;  margin-top:-11px;  padding-left:45px; display: block;
+}
+
+#dxc{
+  width: 1000px; height: 148.4px; background: #F5F5F5;   margin-top: 12.32px;
+}
+ #xc1{
+    width: 156.40px; height: 148.40px; background: white; margin-left: 0; float: left;
+   }
+
+   #xc2{
+    width: 156.40px; height: 148.40px; background: white; margin-left: 12.32px; float: left;
+   }
+   #xc3{
+    width: 156.40px; height: 148.40px; background: white; margin-left: 12.32px; float: left;
+   }
+   #xc4{
+    width: 156.40px; height: 148.40px; background: white; margin-left: 12.32px; float: left;
+   }
+   #xc5{
+    width: 156.40px; height: 148.40px; background: white; margin-left: 12.32px; float: left;
+   }
+   #xc6{
+    width: 156.40px; height: 148.40px; background: white; margin-left: 12.32px; float: left;
+   }
+   
+
+   #lkl1{
+      width: 55px;   height: 55px; float: left;  margin-left: 50.7px;  margin-top: 20px;
+}
+
+
+
+#androi1{
+  color:555555;  font-size: 12px;  padding-top: 170px;  padding-left: 62px; 
+}
+#kechen9011{
+  color:#35B558;  font-size: 14px;  margin-top:-11px;  padding-left:48px; display: block;
+}
+
+#lkl2{
+      width: 55px;   height: 55px; float: left;  margin-left: 50.7px;  margin-top: 20px;
+}
+#androi2{
+  color:555555;  font-size: 12px;  padding-top: 170px;  padding-left: 52px; 
+}
+#kechen9021{
+  color:#35B558;  font-size: 14px;  margin-top:-11px;  padding-left:48px; display: block;
+}
+
+
+#lkl3{
+      width: 55px;   height: 55px; float: left;  margin-left: 50.7px;  margin-top: 20px;
+}
+#androi3{
+  color:555555;  font-size: 12px;  padding-top: 170px;  padding-left: 54px; 
+}
+#kechen9031{
+  color:#35B558;  font-size: 14px;  margin-top:-11px;  padding-left:45px; display: block;
+}
+#lkl4{
+      width: 55px;   height: 55px; float: left;  margin-left: 50.7px;  margin-top: 20px;
+}
+#androi4{
+  color:555555;  font-size: 12px;  padding-top: 170px;  padding-left: 50px; 
+}
+#kechen9041{
+  color:#35B558;  font-size: 14px;  margin-top:-11px;  padding-left:45px; display: block;
+}
+#lkl5{
+      width: 55px;   height: 55px; float: left;  margin-left: 50.7px;  margin-top: 20px;
+}
+#androi5{
+  color:555555;  font-size: 12px;  padding-top: 170px;  padding-left: 56px; 
+}
+#kechen9051{
+  color:#35B558;  font-size: 14px;  margin-top:-11px;  padding-left:45px; display: block;
+}
+#lkl6{
+      width: 55px;   height: 55px; float: left;  margin-left: 50.7px;  margin-top: 20px;
+}
+#androi6{
+  color:555555;  font-size: 12px;  padding-top: 170px;  padding-left: 24px; 
+}
+#kechen9061{
+  color:#35B558;  font-size: 14px;  margin-top:-11px;  padding-left:45px; display: block;
+}
+.swz{color:black;  font-size: 18px;  padding-top: 0px;  padding-left: 0px;
+
+}
+#anniu{margin-left: 425px; margin-top:28px;}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+ul li {
+    float: left;
+    display: inline;
+    font: 1.0em Arial, Helvetica, sans-serif;
+    height: 30px;
+    width: 100px;
+    list-style: none;
+    position: relative;
+    z-index: 3;
+}
+ul li a {
+    color: black;
+    text-decoration: none;
+    line-height: 29px;
+    width: 91px;
+    margin: 0px;
+    padding: 0px 0px 0px 8px;
+    display: block;
+    border-right: solid 1px white;
+    border-bottom:solid 1px white;
+    background: white;
+}
+
+ul li ul li { height:25px; }
+ul li ul li a {
+    background: white;
+    line-height:24px;
+}
+
+ul li a:hover { background: #F5F5F5; }
+ul li ul { visibility: hidden; }
+ul li:hover ul { visibility: visible; }
+ul li ul li a:hover { background: #F5F5F5; }
+ #yinru{float: left;
+  width: 500px; height: 38px; background: white; margin-left: 450px; margin-top: -30px;
+ }
+ #jietu{width: 1000px;   height:297px; margin-left: 259.6px;}
+#jiuyeban{width:1000px; height: 130px;}
+#zuishangfang{
+   width:1519.2; height: 80px;
+}
+#denglu{
+  width: 85px; height: 32px;   float: left; margin-left: 30px; margin-top: 30px;
+}
+#mianfeizhuce{
+  width: 85px; height: 32px;    float: right;   margin-top: -33px; margin-right: 30px;
+}
+#gongdongtupian { overflow:hidden; width:750px; height:330px; position:relative; float:left;}
+#tupianlunbo{width:750px;height: 330px;overflow: hidden;position: relative;margin: 20px 0px;float: left;}
+    #list{width: 5250px;height: 330px;position: absolute;z-index: 1;}
+    #list img{width:750px;height: 330px;float: left;}
+    #buttons{position: absolute;height: 20px;width: 100px;z-index: 2;left: 320px;top: 280px;}
+    #buttons span{cursor: pointer;float:left;width: 10px;height: 10px;background: #ffffff;margin-right: 10px;margin-top: 10px;}
+    #buttons .on{height: 20px;margin-top: 0;background: #35b558;}
+    .arrow{cursor: pointer;width: 50px;height: 90px; line-height:90px;text-align: center;font-size: 50px;background: black;position:absolute;z-index: 2;left: 0;top: 85px;color: #ececec;display: none;opacity: 0.2;}
+    .arrow:hover{background: rgba(0,0,0,.5);opacity: 0.6;}
+    #tupianlunbo:hover .arrow{display: block;}
+    #prev{left: 0px;top: 125px;}
+    #next{left: 700px;top: 125px;}
+    #tupianlunbo{margin-left: 260px;}
+</style>
+<script>
+  window.onload=function(){
+        var tupianlunbo=document.getElementById('tupianlunbo');
+        var list=document.getElementById('list');
+        var buttons=document.getElementById('buttons').getElementsByTagName('span');
+        var prev=document.getElementById('prev');
+        var next=document.getElementById('next');
+        var index=1;
+        var animated=false;
+        var timer;
+        var weix=document.getElementById('weix');
+        var erweima=document.getElementById('erweima')
+        function showxiaokuai(){
+            for (var i = 0; i < buttons.length; i++) {
+               if (buttons[i].className=='on') {buttons[i].className='';break;}
+            };
+            buttons[index-1].className='on';
+        }
+        function animate(offset){
+            animated=true;
+            var newleft=parseInt( list.style.left)+offset;
+            var time=500;
+            var interval=10;
+            var speed=offset/(time/interval);
+            function go(){
+                if ((speed<0 && parseInt(list.style.left)>newleft) || (speed>0 && parseInt(list.style.left)<newleft)){
+                    list.style.left= parseInt(list.style.left)+speed+'px';
+                    setTimeout(go,interval);
+                }
+                else{
+                    animated=false;
+                    list.style.left=newleft+'px';
+                   if (newleft>-750) {list.style.left=-3750+'px';}
+                   if (newleft<-3750) {list.style.left=-750+'px';}
+                }
+            }
+            go();
+        }
+        function play(){
+            timer=setInterval(function(){next.onclick();},3000);
+        }
+        function stop(){
+            clearInterval(timer);
+        }
+        tupianlunbo.onmouseover=stop;
+        tupianlunbo.onmouseout=play;
+        next.onclick=function(){
+            if (index==5) {index=1;}
+            else{index+=1;}
+            showxiaokuai();
+            if(animated==false){animate(-750);}
+        }
+        prev.onclick=function(){
+            if (index==1) {index=5;}
+            else{index-=1;}
+            showxiaokuai();
+            if(animated==false){animate(750)};
+        }
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].onclick=function(){
+                if (this.className=='on') {return;};
+                var myindex=parseInt(this.getAttribute('index'));
+                var offset=-750*(myindex-index);
+                if(animated==false){animate(offset);}
+                index=myindex;
+                showxiaokuai();
+            }
+        }
+        
+    }
+</script>
+
+
+</head>
+    <body>
+    	<div id="guanggao">
+       <img id="zuishangfang" src="js/zuishangjietupng.png" width;"auto"/>
+      </div>
+    	<div id="biaoqianlan">
+
+          <img id="jike" src="js/jikexueyuan.png"/>
+           <div id="yinru">
+            <ul>
+       <li><a href="#">首页</a></li>
+      <li><a href="#">职业学院</a>
+      <ul>
+      <li><a href="#">课程库</a></li>
+      <li><a href="#">职业路径图</a></li>
+      <li><a href="#">知识体系图</a></li>
+      <li><a href="#">系列课程</a></li>
+      <li><a href="#">课程标签</a></li>
+      <li><a href="#">vip会员购买</a></li>
+    </ul>
+  </li>
+  <li><a href="#">会员课程</a>
+<ul>
+      <li><a href="#">web前端工程师</a></li>
+      <li><a href="#">python web 工程师</a></li>
+      <li><a href="#">go语言工程师</a></li>
+      <li><a href="#">ios工程师</a></li>
+    </ul>
+
+
+
+  </li>
+  <li><a href="#">极客社区</a>
+    <ul>
+      <li><a href="#">技术问答</a></li>
+      <li><a href="#">Wiki</a></li>
+      <li><a href="#">社群</a></li>
+      <li><a href="#">资源下载</a></li>
+    </ul>
+  </li>
+  
+</ul>
+ </div> 
+          </div>                 
+<div id="tupianlunbo">
+                    <div id="list" style="left:-750px;">
+                        <div class="itu"><a href="#"><img src="http://a1.jikexueyuan.com/home/201608/02/0b1c/579fa1b0c9f40.jpg" alt="" /></a></div>
+                        <div class="itu"><a href="#"><img src="http://a1.jikexueyuan.com/home/201608/02/01b8/579fa17c35b7f.jpg" alt="" /></a></div>
+                        <div class="itu"><a href="#"><img src="http://a1.jikexueyuan.com/home/201610/19/2213/5806d44514823.jpg" alt="" /></a></div>
+                        <div class="itu"><a href="#"><img src="http://a1.jikexueyuan.com/home/201609/26/2027/57e8bdeeea6b8.jpg" alt="" /></a></div>
+                        <div class="itu"><a href="#"><img src="http://a1.jikexueyuan.com/home/201609/07/80fa/57cfe5ead36b9.jpg" alt="" /></a></div>
+                        <div class="itu"><a href="#"><img src="http://a1.jikexueyuan.com/home/201608/02/0b1c/579fa1b0c9f40.jpg" alt="" /></a></div>
+                        <div class="itu"><a href="#"><img src="http://a1.jikexueyuan.com/home/201608/02/01b8/579fa17c35b7f.jpg" alt="" /></a></div>
+                    </div>
+                    <div id="buttons">
+                        <span index="1" class="on"></span>
+                        <span index="2"></span>
+                        <span index="3"></span>
+                        <span index="4"></span>
+                        <span index="5"></span>
+                    </div>
+                    <div id="arrows">
+                        <div class="arrow" id="prev">&lt;</div>
+                        <div class="arrow" id="next">&gt;</div>
+                    </div>
+                </div>
+  
+
+
+
+    	   
+           <div id="denglu">
+        	      <div id="shang">
+                   <img id="touxiang" src="js/touxiang.jpg"/>   
+                   <img id="denglu" src="js/denglupng.png"/>
+                   <img id="mianfeizhuce" src="js/mianfeizhucepng.png"/>
+                   <p id="hello">Hello,<br /><br />欢迎成为极客一员</p>
+                   <p id="huanyin"></p>
+                  </div>
+        	      <div id="xia">
+                   <img src="js./tt.jpg" title="" alt="" height="160" width="240" border="50" />  
+                  </div>
+           </div>
+    	
+    	<div id="kechengfenlei">
+         <img  id="jiuyeban" src="js/jiuyubanpng.png" height="155px" width="233.4px"/>
+      </div>
+    	<div id="bufenkecheng">
+       
+          <div id="k1">
+            
+              <img  id="l1" src="js/1jpg.jpg" height="155px" width="233.4px"/>
+              
+                <li class="foreground">微信*小程序 &nbsp;  从基础实战</li>
+                <li class="zi">18小时 &nbsp;  | &nbsp;    1门课</li>
+                <li class="za"><span id="jiage">&yen;199.00</span> <span id="fa">&yen;499.00</span><span id="he"> 1732人学习</span></li>
+              
+            </div> 
+          <div id="k2">
+            <img  id="l2" src="js/2jpg.jpg" height="155px" width="233.4px"/>
+                <li class="foreground2">0基础学前端——HTML/HTML5基础</li>
+                <li class="zi2">16小时 &nbsp;  | &nbsp;    1门课</li>
+                <li class="za2"><span id="jiage2">&yen;79.00</span> <span id="fa2">&yen;99.00</span><span id="he2">&nbsp;&nbsp;&nbsp;92人学习</span></li>
+
+             </div> 
+          <div id="k3">
+            <img  id="l3" src="js/3jpg.jpg" height="155px" width="233.4px"/>
+                <li class="foreground3">Web前端2D/3D特效开发实战</li>
+                <li class="zi3">17小时 &nbsp;  | &nbsp;    1门课</li>
+                <li class="za3"><span id="jiage3">&yen;29.00</span> <span id="fa3">&yen;499.00</span><span id="he3">&nbsp;&nbsp;&nbsp;96人学习</span></li>
+
+          </div> 
+          <div id="k4">
+            <img  id="l4" src="js/4jpg.jpg" height="155px" width="233.4px"/>
+            <li class="foreground3">0基础学前端——JavaScript基础</li>
+                <li class="zi3">33小时 &nbsp;  | &nbsp;    1门课</li>
+                <li class="za3"><span id="jiage3">&yen;139.00</span> <span id="fa3">&yen;149.00</span><span id="he3">&nbsp;&nbsp;&nbsp;72人学习</span></li>
+          </div> 
+        </div >
+    	<div id="zhiyexueyuan">
+          <div id="zuishang">
+            <li class="sz">职业学院</li>
+          </div>
+       
+          <div id="bzuo">
+          
+            <img  id="zuhe2" src="js/shangpng.png"/>
+            <li class="shangzi">Web前端工程师</li>
+          </div>
+          <div id="bzhong">
+             <div id="bzs"><img  id="bzs1" src="js/m1png.png"/></div>
+             <div id="bzx"> <img  id="bzs2" src="js/m2png.png"/></div>
+          </div>
+          <div id="byou">
+            <div id="bys1"><img  id="bzs3" src="js/m3png.png"/></div>
+            <div id="byx1"><img  id="bzs4" src="js/m4png.png"/></div>
+          </div> 
+      </div>
+    	<div id="huiyuankecheng">
+       <div id="hzs"><li class="swz">会员课程</li></div> 
+       <div id="hsz">
+
+         <div id="hs1" >
+          <img  id="bbs1" src="js/h1png.png" />
+          <li class="android1"><span id="android1">Android</span> <span id="kechen901"><br />90门课程</span></li>
+        </div>
+
+          <div id="hs2">
+            <img  id="bbs2" src="js/h2png.png" />
+            <li class="android2"><span id="android2">iOS</span> <span id="kechen902"><br />51门课程</span></li>
+          </div>
+          <div id="hs3">
+            <img  id="bbs3" src="js/h3png.png" />
+             <li class="android3"><span id="android3">Swift</span> <span id="kechen903"><br />11门课程</span></li>
+          </div>
+          <div id="hs4">
+            <img  id="bbs4" src="js/h4png.png" />
+             <li class="android4"><span id="android4">HTML5</span> <span id="kechen904"><br />116门课程</span></li>
+          </div>
+          <div id="hs5">
+            <img  id="bbs5" src="js/h5png.png" />
+             <li class="android5"><span id="android5">JavaScript</span> <span id="kechen905"><br />90门课程</span></li>
+          </div>
+          <div id="hs6">
+            <img  id="bbs6" src="js/h6png.png" />
+             <li class="android6"><span id="android6">Node.js</span> <span id="kechen906"><br />90门课程</span></li>
+          </div>
+         
+       </div>
+         <div id="dxc">
+          <div id="xc1">
+           <img  id="lkl1" src="js/h7png.png" />
+          <li class="ppt1"><span id="androi1">C语言</span> <span id="kechen9011"><br />17门课程</span></li> 
+          </div> 
+          <div id="xc2">
+            <img  id="lkl2" src="js/h8png.png" />
+             <li class="ppt2"><span id="androi2">JAVA语言</span> <span id="kechen9021"><br />17门课程</span></li>
+           </div>
+          <div id="xc3">
+            <img  id="lkl3" src="js/h9png.png" />
+             <li class="ppt3"><span id="androi3">PHP语言</span> <span id="kechen9031"><br />23门课程</span></li>
+          </div>
+          
+          <div id="xc4">
+            <img  id="lkl4" src="js/h10png.png" />
+             <li class="ppt4"><span id="androi4">Java&nbsp;Web</span> <span id="kechen9041"><br />64门课程</span></li>
+          </div>
+          
+          <div id="xc5">
+            <img  id="lkl5" src="js/h11png.png" />
+             <li class="ppt5"><span id="androi5">Python</span> <span id="kechen9051"><br />38门课程</span></li>
+          </div>
+          
+          <div id="xc6">
+            <img  id="lkl6" src="js/h12png.png" />
+             <li class="ppt6"><span id="androi6">COcos2d-x游戏开发</span> <span id="kechen9061"><br />89门课程</span></li>
+          
+          </div>
+        </div>
+        
+          <img  id="anniu" src="js/anniupng.png"/>
+        
+      </div>
+    	
+    	
+       
+      
+    	<img id="jietu" src="js/zuixia1.png"/>
+
+       
+    </body>
+</html>
+
+
+
+
